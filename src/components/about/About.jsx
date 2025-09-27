@@ -1,6 +1,6 @@
 import React from 'react'
 import "./about.css"
-import Me from "../../assets/me-about.jpg"
+import Me from "../../assets/kitt.jpeg"
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -20,7 +20,7 @@ const About = () => {
                         <article className='about__card'>
                             <FaAward className='about__icon'/>
                             <h5>Experience</h5>
-                            <small>2+ Years Working</small>
+                            <small>3+ Years Working</small>
                         </article>
                         <article className='about__card'>
                             <FiUsers className='about__icon'/>
@@ -34,7 +34,7 @@ const About = () => {
                         </article>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic esse officia ullam, magni laudantium adipisci ipsa necessitatibus ratione velit nam inventore iure autem voluptatibus asperiores tenetur provident blanditiis? Eaque, consequuntur.
+                        Passionate and detail-oriented Associate Software Developer with nearly 4 years of experience in full-stack development. Skilled in Java, Python, MySQL, and frameworks such as Spring Boot, Django, Angular, and React. Experienced in delivering enterprise-level solutions across banking, finance, and educational domains. Adept at problem-solving, team collaboration, and building scalable applications. Seeking to leverage technical expertise and innovative thinking in a challenging software engineering role.
                     </p>
                     <a href='#contact' className='btn btn-primary'>Let's Talk</a>
                 </div>
